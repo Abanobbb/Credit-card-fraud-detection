@@ -1,6 +1,6 @@
 # Credit-card-fraud-detection
 
-# to download the data click [here](https://www.kaggle.com/mlg-ulb/creditcardfraud/download)
+### to download the data click [here](https://www.kaggle.com/mlg-ulb/creditcardfraud/download)
 
 It is important that credit card companies are able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase
 
@@ -13,7 +13,7 @@ Using the original data set would not prove to be a good idea for a very simple 
 
 
 **SMOTE** <br/>
- Smote is a statistical technique for increasing the number of cases in your dataset in a balanced way. The module works by generating new instances from existing minority cases that you supply as input.[read more about SMOTE technique]( https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/)
+ Smote is a statistical technique for increasing the number of cases in your dataset in a balanced way. The module works by generating new instances from existing minority cases that you supply as input. [read more about SMOTE technique]( https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/)
  
 Since over 99% of our transactions are non-fraudulent, an algorithm that always predicts that the transaction is non-fraudulent would achieve an accuracy higher than 99%. so Smote technique is applied for balancing the data (see  **Deep learning + Sampling file** )
 
